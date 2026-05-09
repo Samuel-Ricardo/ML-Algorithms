@@ -1,4 +1,6 @@
-sklearn
+scikit-learn
 matplotlib
 numpy
+pandas
+pydotplus
 ipykernel
