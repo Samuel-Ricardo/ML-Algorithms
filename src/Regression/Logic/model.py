@@ -45,14 +45,3 @@ print("probability = ", prob)
 #%%
 
 
-
-
-
-
-
-
-
-
-
-
-

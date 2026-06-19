@@ -1,11 +1,8 @@
-# EXPASION EXPERIMENT
 
-# %%
+
 
 import numpy as np
 import matplotlib.pyplot as plt
-
-# %%
 
 
 def generate_gradient(X, theta, y):
@@ -46,7 +43,6 @@ def gradient_descending(X, y, theta, alpha):
         index += 1
     return theta, Jthetas
 
-# %%
 
 def showJthetas(diff_value): 
     
@@ -82,8 +78,6 @@ def showlinecurve(theta, sample_training_set):
     plt.show()
 
 
-# %%
-
 trainig_data_include_y, training_x, y = get_training_data("../../../docs/ML/ML/02/lr2_data.txt")
 sample_count, feature_count = training_x.shape
 
@@ -98,5 +92,3 @@ showJthetas(Jthetas)
 showlinecurve(result_theta, trainig_data_include_y)
 
 
-
-# %%

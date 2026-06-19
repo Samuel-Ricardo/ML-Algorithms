@@ -1,4 +1,4 @@
-# %%
+
 
 import pandas as pd 
 import numpy as np 
@@ -8,8 +8,6 @@ import shutil
 
 from sklearn import tree
 
-
-# %%
 
 def createTree(trainingData): 
     data = trainingData.iloc[:, :-1]
@@ -41,8 +39,6 @@ def data2vector(data):
     return data
 
 
-# %%
-
 data = pd.read_table("../../docs/dataset/tennis.txt", header=None, sep='\t')
 
 trainningvec = data2vector(data)
@@ -50,14 +46,5 @@ trainningvec = data2vector(data)
 decisionTree = createTree(trainningvec)
 
 showTree2pdf(decisionTree, "temis.pdf")
-
-
-
-
-
-
-
-
-
 
 
